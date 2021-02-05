@@ -1,0 +1,26 @@
+{
+  "name": "pipeline-validator",
+  "version": "1.0.0",
+  "description": "SD Script to fetch yaml for all pipelines and run validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.vzbuilders.com:ppaul/sd-housekeeping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "csv-writer": "^1.6.0",
+    "js-yaml": "^4.0.0",
+    "request": "^2.88.2",
+    "requestretry": "^4.1.2",
+    "screwdriver-scm-base": "^7.1.3",
+    "screwdriver-scm-github": "^11.1.4",
+    "screwdriver-scm-router": "^6.1.1"
+  }
+}

@@ -1,0 +1,15 @@
+scms:
+  github:
+    plugin: github
+    config:
+      # The client id used for OAuth with github. Look up GitHub OAuth for details
+      # https://developer.github.com/v3/oauth/
+      oauthClientId: YOUR_GTIHUB_APP_CLIENT_ID
+      # The client secret used for OAuth with github
+      oauthClientSecret:  YOUR_GTIHUB_APP_CLIENT_SECRET
+      # You can also configure for use with GitHub enterprise
+      gheHost: github.com
+      # Secret to add to GitHub webhooks so that we can validate them
+      secret: a-really-real-secret
+      username: sd-buildbot
+      email: dev-null@screwdriver.cd
